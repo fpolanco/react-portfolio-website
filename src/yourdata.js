@@ -8,7 +8,7 @@ import codeIcon from "./images/code.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
+// import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
 
@@ -18,14 +18,16 @@ export default {
 
   //   Header Details ---------------------
   name: "Franchell",
-  headerTagline: [
+  //headerTagline: [
     //Line 1 For Header
-    "we adding",
+    //"we adding",
     //Line 2 For Header
-    "my pic",
+    //"my pic",
     //Line 3 For Header
-    "here",
-  ],
+    //"here",
+  //],
+  headerImage:
+    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
   //   Header Paragraph
   headerParagraph:
     "♀ in tech.",
@@ -117,7 +119,7 @@ export default {
   aboutParaTwo:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "I'm currently working as a project manager for an organization named Mott Haven Fridge, applying my technical skills and briding the gap. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage:
     "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 
@@ -131,12 +133,12 @@ export default {
     {
       img: htmlIcon,
       para:
-        "HTML",
+        "HTML ",
     },
     {
       img: cssIcon,
       para:
-        "CSS,",
+        "CSS",
     },
     {
       img: jsIcon,
@@ -151,21 +153,39 @@ export default {
     {
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Project Planning",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Visual Studio Code",
     },
   ],
 
   // End Skills Section --------------------------
 
   //   Promotion Section --------------------------
-      Blogs
-  //promotionHeading: ""
-   projects: [
+
+  // promotionHeading: " Latest Blog",
+  // promotionImage:
+  //   "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  // promotionPara:
+  //   "What is Javascript?",
+
+   // End Promotion Section -----------------
+
+  // WorkBlog Section ------------------------
+  projects: [
+    {
+      title: "Mott Haven Website", //Project Title - Add Your Project Title Here
+      para:
+        "Super proud of this one as project manager", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
     {
       title: "RATEFLIX", //Project Title - Add Your Project Title Here
       para:
@@ -176,7 +196,6 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
-
     {
       title: "Crystal Collection", //Project Title - Add Your Project Title Here
       para:
@@ -187,7 +206,6 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
     },
-
     {
       title: "Bloom", //Project Title - Add Your Project Title Here
       para:
@@ -197,11 +215,31 @@ export default {
         "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
-    }
+    },
+    {
+      title: "OpenBook", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
+    {
+      title: "Javascript Counter", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+    },
+
   ],
-  // promotionPara:
-  //   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
+
+   // End WorkBlog Section -----------------
 
   //   Contact Section --------------
 
@@ -215,11 +253,11 @@ export default {
     // },
     {
       img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      url: "https://franchell.medium.com/",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.linkedin.com/in/franchellpolanco/",
     },
   ],
 

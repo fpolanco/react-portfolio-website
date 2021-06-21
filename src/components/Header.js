@@ -11,13 +11,13 @@ const Header = () => {
             <h2>
               Hi, I'm {data.name}{" "}
               <span role="img" aria-label="Emoji">
-                👋
+                ✨
               </span>
             </h2>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
-              <h1>
+              {/* <h1>
                 {data.headerTagline[0]
                   ? data.headerTagline[0]
                   : "Building digital"}
@@ -33,10 +33,13 @@ const Header = () => {
                 {data.headerTagline[2]
                   ? data.headerTagline[2]
                   : "and experience"}
-              </h1>
+              </h1> */}
             </div>
           </Fade>
           <Fade bottom>
+          <div className="image-wrapper">
+            <img src={data.headerImage} alt="header"></img>
+            </div>
             <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
